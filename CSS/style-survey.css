@@ -1,0 +1,119 @@
+html {
+  font-size: 10px;
+}
+
+
+body {
+  margin: 0;
+  font-size: 1.6rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 500;
+  background: #B0E0E6;
+}
+
+.container {
+  width: 50vw;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#description {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.text {
+  font-size: 18px;
+}
+
+.label {
+  display: inline-block;
+  width: 48%;
+  text-align: right;
+  font-size: 1.8rem;
+  padding: 5px;
+  margin-top: 10px;
+  vertical-align: top;
+}
+
+.tab-right{
+  display: inline-block;
+  vertical-align: middle;
+  width: 40%;
+  text-align: left;
+}
+
+
+.input-field {
+  height: 20px;
+  width: 250px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+}
+
+.input-field:hover {
+  border: 1px solid black;
+  transition-duration: .7s;
+}
+
+#submit {
+  background-color: rgba(89,172,224,0.8);
+  border-radius: 4px;
+  color: white;
+  font-size: 1em;
+  height: 40px;
+  width: 96px;
+  margin: 10px;
+  border: 0px solid;
+  position: relative;
+  left: 44%;
+}
+
+#submit:hover {
+  background-color: rgba(89,172,224,1);
+}
+
+#submit:active {
+  background-color: rgba(89,172,242,1);
+}
+
+#dropdown {
+  width: 180px;
+  height: 30px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+#dropdown:hover {
+  border: 1px solid black;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  float: left;
+  margin-right: 5px;
+}
+
+ul {
+  padding: 5px;
+}
+
+.labeldown {
+  margin-top: 14px;
+}
+
+.radio,
+.checkbox {
+  padding-bottom: 10px;
+}
+

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Форма опроса</title>
+  <meta name="description" content="Discription">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="CSS/style-survey.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+ <h1 id="title">Форма обратной связи</h1>
+ <div class="container">
+   <p id="description">Подскажите как мы можем улучшить наш сайт</p>
+   <form id="survey-form">
+    
+     <div class="form-group">
+        <div class="label">
+           <label for="name" id="name-label">Имя:</label>
+        </div>
+        <div class="tab-right">
+           <input type="text" id="name" class="input-field" placeholder="Введите Ваше имя" required>
+        </div>
+      </div>
+      
+   <div class="form-group"> 
+    <div class="label">
+      <label for="email" id="email-label">Электронная почта:</label>
+    </div>
+    <div class="tab-right">
+      <input type="email" id="email" class="input-field" placeholder="Введите Ваш адрес электронной почты" required>
+     </div>
+   </div> 
+  
+  
+   <div class="form-group">   
+       <div class="label">
+         <label for="number" id="number-label">Возраст:</label>
+       </div>
+        <div class="tab-right">
+         <input type="number" id="number" class="input-field" min="6" max="99" placeholder="Введите Ваш возраст">
+       </div>
+   </div> 
+     
+   <div class="form-group"> 
+     <div class="label">
+     <label>Какой вариант описывает вашу текущую деятельность?</label>
+     </div>
+     <select id="dropdown">
+         <option disabled selected value>Выберите из списка</option>
+         <option>Студент</option>
+         <option>Работаю</option>
+         <option>Не могу сказать</option>
+         <option>Другое</option>
+     </select>
+    </div>
+     
+     <div class="form-group"> 
+       <div class="label labeldown">
+         <label name="radio" >Какова вероятность, что Вы порекомендуете наш сайт друзьям?</label>
+       </div>
+        <div class="tab-right">
+          <ul style="list-style:none;">
+            <li class="radio"><label class="text"><input type="radio" value="1" name="radio">Порекомендую</label></li>
+            <li class="radio"><label class="text"><input type="radio" value="2" name="radio">Возможно порекомендую</label></li>
+            <li class="radio"><label class="text"><input type="radio" value="3" name="radio">Ни в коем случае!</label></li>
+         </ul>
+       </div>
+     </div>
+     
+     <div class="form-group"> 
+       <div class="label labeldown">
+         <label>Разделы, которые должны быть улучшены?(можно отметить несколько)</label>
+       </div>
+        <div class="tab-right">
+        <ul id="preferences" style="list-style: none;">
+          <li class="checkbox"><label class="text"><input type="checkbox" value="1">Каталог товаров</label></li>
+          <li class="checkbox"><label class="text"><input type="checkbox" value="2">Информация о компании</label></li>
+          <li class="checkbox"><label class="text"><input type="checkbox" value="3">Контакты</label></li>
+          <li class="checkbox"><label class="text"><input type="checkbox" value="4">Характеристики товаров</label></li>
+          <li class="checkbox"><label class="text"><input type="checkbox" value="5">Способы оплаты</label></li>
+          <li class="checkbox"><label class="text"><input type="checkbox" value="6">Способы получения товаров</label></li>
+          </ul>
+       </div>
+     </div>
+     
+      
+      <div class="form-group"> 
+      <div class="label">
+       <label>Дополнительные комментарии:</label>
+     </div>
+      <div class="tab-right">
+       <textarea class="input-field" style="height: 80px;resize: vertical;" placeholder="Введите Ваш комментарий здесь..."></textarea>
+       </div>
+     </div>
+       
+        <input class="button" type="submit" id="submit">
+        
+   </form>
+  </div>
+</body>
+</html>
